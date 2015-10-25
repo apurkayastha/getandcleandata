@@ -9,7 +9,7 @@ address <- sub("^https", "http", address)
 data <- read.table(url(address), header = TRUE) 
 View(data)
 
-## 2.run_analysis.R
+## 2. run_analysis.R
 
 The run_analysis.R is the R script to produce the required tidy data set, from the given data at 
 
@@ -17,6 +17,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The data above is extracted and the working directory in R is set as the folder "UCI HAR Dataset". The R script should be run from inside this working directory.
 
-## 3.CodeBook.md
+## 3. CodeBook.md
 
 The CodeBook.md is a description of the experiment, the variables in the data, 
