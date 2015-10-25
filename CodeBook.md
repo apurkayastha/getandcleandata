@@ -119,8 +119,11 @@ The data above is extracted and the working directory in R is set as the folder 
 
 ## Description of the steps in R script to create tidy data
 1. Read in all the 6 files in "train" and "test" folders. 
-2. After studying the dimensions of the datasets, it is clear that the contents of the "train" folder should be combined with a simple "column bind" as they have the same number of rows/records. Same holds for the contents of the "test" folder.
-3.The "features.txt
+2. The "features.txt" file is loaded and the second column is used as descriotive names for all columns in the datasets.
+3. After studying the dimensions of the datasets, it is clear that the contents of the "train" folder should be combined with a simple "column bind" as they have the same number of rows/records. Same holds for the contents of the "test" folder. The resulting test file and train file should be combined with a "row bind" as they both have 563 columns.
+4. Activity labels are read in from the "actvity_labels.txt" file, and used to replace the numeric values in the dataset.
+5. Only the columns with the words "mean" or "std" in them are extracted. This results in 86 variables, and additional "Activity" column, and "Subject" column make the total number of columns 88.
+6. Last step is to use dlpyr package to summarise the data to find mean of each activity and each volunteer. This results in the tidyData.txt of 180 (30 volunteers x 6 activities) rows and 88 columns.
 
 
 
