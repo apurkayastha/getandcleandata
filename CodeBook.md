@@ -51,5 +51,11 @@ The following files are available for the train and test data. Their description
 
 Creating the tidy datafile
 ======================================
+The run_analysis.R is the R script to produce the required tidy data set, from the given data at 
 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+The data above is extracted and the working directory in R is set as the folder "UCI HAR Dataset". The R script should be run from inside this working directory.
+
+## Description of the steps in R script to create tidy data
 
