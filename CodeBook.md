@@ -128,4 +128,4 @@ The data above is extracted and the working directory in R is set as the folder 
 Variables in the tidy data file
 ======================================
 
-Among all the 561 variables in the raw data file described above, 86 related to "mean" and "std" are present in the tidy data. No new metric has been calulated, only a mean of each of the 88 variables for each Activity type and each Subject is calculated. The variables are normalised and bounded within [-1,1] (hence no units).
+Among all the 561 variables in the raw data file described above, 86 related to "mean" and "std" are present in the tidy data. No new metric has been calulated, only a mean of each of the 88 variables for each Activity type and each Subject is calculated. The variables are normalised and bounded within [-1,1], hence no units.
