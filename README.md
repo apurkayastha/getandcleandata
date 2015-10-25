@@ -4,10 +4,10 @@ This is the Course Project for the Data Science Course "Get and Clean data"
 ## 1. tidyData.txt
 The tidyData.txt should be read in with the following commands:
 
->address <- "https://s3.amazonaws.com/coursera-uploads/user-a2c519925e32a2ba6489d80e/975117/asst-3/af6015c07b5311e5bfe43f4a235273a1.txt"
->address <- sub("^https", "http", address)
->data <- read.table(url(address), header = TRUE) 
->View(data)
+- address <- "https://s3.amazonaws.com/coursera-uploads/user-a2c519925e32a2ba6489d80e/975117/asst-3/af6015c07b5311e5bfe43f4a235273a1.txt"
+- address <- sub("^https", "http", address)
+- data <- read.table(url(address), header = TRUE) 
+- View(data)
 
 ## 2. run_analysis.R
 
