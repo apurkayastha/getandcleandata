@@ -125,5 +125,7 @@ The data above is extracted and the working directory in R is set as the folder 
 5. Only the columns with the words "mean" or "std" in them are extracted. This results in 86 variables, and additional "Activity" column, and "Subject" column make the total number of columns 88.
 6. Last step is to use dlpyr package to summarise the data to find mean of each activity and each volunteer. This results in the tidyData.txt of 180 (30 volunteers x 6 activities) rows and 88 columns.
 
+Variables in the tidy data file
+======================================
 
-
+Among all the 561 variables in the raw data file described above, 86 related to "mean" and "std" are present in the tidy data. No new metric has been calulated, only a mean of each of the 88 variables for each Activity type and each Subject is calculated. The variables are normalised and bounded within [-1,1] (hence no units).
