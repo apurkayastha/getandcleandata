@@ -28,4 +28,4 @@ The data above is extracted and the working directory in R is set as the folder 
 
 ## 3. CodeBook.md
 
-The CodeBook.md is a description of the experiment, the variables in the data, 
+The CodeBook.md is a description of the experiment, the variables in the data, and the steps used to create tidy data
