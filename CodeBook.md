@@ -58,6 +58,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The data above is extracted and the working directory in R is set as the folder "UCI HAR Dataset". The R script should be run from inside this working directory.
 
 ## Description of the steps in R script to create tidy data
-1. 
-2.
+1. Read in all the 6 files in "train" and "test" folders. 
+2. After studying the dimensions of the datasets, it is clear that 
 3.
