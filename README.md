@@ -17,6 +17,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The data above is extracted and the working directory in R is set as the folder "UCI HAR Dataset". The R script should be run from inside this working directory.
 
-##CodeBook.md
+## 3.CodeBook.md
 
 The CodeBook.md is a description of the experiment, the variables in the data, 
