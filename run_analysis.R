@@ -52,10 +52,5 @@ dim(result)
 
 write.table(result, "tidyData.txt", row.name=FALSE)
 data <- read.table("tidyData.txt", header = TRUE)
-
 View(data)
 
-address <- "https://s3.amazonaws.com/coursera-uploads/user-a2c519925e32a2ba6489d80e/975117/asst-3/af6015c07b5311e5bfe43f4a235273a1.txt"
-address <- sub("^https", "http", address)
-data <- read.table(url(address), header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different
-View(data)
